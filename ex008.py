@@ -1,0 +1,10 @@
+a = input('Digite algo:')
+print('O tipo primitivo desse valo é', type(a))
+print('Só tem espaços?', a.isspace())
+print('É um número?', a.isnumeric())
+print('É alfabetico?', a.isalpha())
+print('É alpanúmerico?', a.isalnum())
+print('está em maisculas?', a.isupper())
+print('está em minusculas?', a.islower())
+print('Está captalizada?', a.istitle())
+
